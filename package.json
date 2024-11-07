@@ -1,0 +1,27 @@
+{
+  "name": "barn-door-tracker",
+  "version": "1.0.0",
+  "description": "Control system for a barn door tracker mount for astrophotography",
+  "main": "src/runstepprogram.js",
+  "scripts": {
+    "start": "node src/runstepprogram.js",
+    "test-performance": "node src/testgpioperformance.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/barn-door-tracker.git"
+  },
+  "keywords": [
+    "astrophotography",
+    "barn-door-tracker",
+    "raspberry-pi",
+    "gpio",
+    "stepper-motor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
